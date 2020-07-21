@@ -686,11 +686,12 @@ a, a:hover {
   top: -10px;
 }
 
-.cover-v1 {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: repeat;
-  width: 100%;
+.cover-v1.back-img {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-image: url('../images/backwards.jpg');
 }
 
 .cover-v1.gradient-bottom-black {
